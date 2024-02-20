@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+}
+.accordion {
+  width: 80%;
+}
+
+hr {
+  background-color: blue;
+}
+header {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+header > p {
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+hr {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.contain-head > p {
+  font-size: larger;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  header {
+    display: flex;
+    padding: 0;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  header > p {
+    margin-left: 0;
+  }
+  .contain-head {
+    text-align: center;
+  }
+  .accordion {
+    width: 100%;
+  }
+}
